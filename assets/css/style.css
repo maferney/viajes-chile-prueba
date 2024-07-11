@@ -17,13 +17,13 @@ body {
     color: white;
     margin-left: 10px;
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .navbar-nav {
     font-family: "Montserrat", sans-serif;
     padding-right: 30px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .navbar {
@@ -74,8 +74,8 @@ h2 {
     color: white;
     display: block;
     text-align: justify;
-    margin: 0 ;
-    font-size: 13px;
+    margin: 0;
+    font-size: 12px;
     padding: 20px;
 }
 
@@ -113,7 +113,7 @@ h2 {
 
 .card-text {
     font-family: "Montserrat", sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     text-align: justify;
 }
 
