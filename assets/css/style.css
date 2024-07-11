@@ -1,0 +1,181 @@
+body {
+    background-color: #000000;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.imagen-viajes {
+    margin-left: 20px;
+    max-width: 4%;
+}
+
+.texto-viajes {
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.navbar-nav {
+    font-family: "Montserrat", sans-serif;
+    padding-right: 30px;
+    font-size: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.carousel-item.active {
+    background-image: url('./assets/img/carousel1.jpg');
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url('./assets/img/carousel2.jpg');
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url('./assets/img/carousel3.jpg');
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+h1,
+h2 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.parrafos {
+    font-family: "Montserrat", sans-serif;
+    justify-content: space-evenly;
+    color: white;
+    display: block;
+    text-align: justify;
+    margin: 0 ;
+    font-size: 13px;
+    padding: 20px;
+}
+
+.parrafos i {
+    text-align: justify;
+    color: black;
+    background-color: #62C0C1;
+    padding: 5px 190px;
+    font-size: 25px;
+}
+
+.destacados-card {
+    padding: 40px 20px;
+}
+
+.card {
+    background-color: #62C0C1;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.contacto {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    padding: 0 80px;
+    margin: 0 80px;
+}
+
+.contacto .form-label {
+    margin-top: 10px;
+}
+
+.contacto .form-control {
+    margin-bottom: 10px;
+    padding-top: 15px;
+}
+
+.contacto button {
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #62C0C1;
+    margin-bottom: 60px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contacto button:hover {
+    color: #333;
+}
+
+footer {
+    background: #62C0C1;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+footer .icons {
+    color: #000000;
+    text-decoration: none;
+    font-size: 40px;
+    display: flex;
+    padding-right: 2em;
+    gap: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer p {
+    color: #000000;
+    margin: 0;
+    font-size: 15px;
+}
+
+footer .icons a:hover {
+    color: #333;
+}
