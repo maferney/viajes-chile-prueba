@@ -179,3 +179,8 @@ footer p {
 footer .icons a:hover {
     color: #333;
 }
+
+.icons {
+    --animate-delay: 5s;
+    --animate__slower: 5s;
+}
